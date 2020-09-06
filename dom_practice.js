@@ -18,3 +18,6 @@ restaurantSection.appendChild(cityMuseum)
 
 restaurantSection.style.color = 'lightseagreen'
 
+lis[2].remove()
+
+//yay this was great!
