@@ -9,5 +9,12 @@ console.log(requiredElement)
 
 
 const lis = document.querySelectorAll('li')
-lis[0].style.color = 'blue'
+lis[0].style.color = 'darkseagreen'
 lis[2].innerText = 'Jamboree sandwich at the Jambo-ree'
+
+const cityMuseum = document.createElement('img')
+cityMuseum.setAttribute('src', 'https://i.imgur.com/tZNqgYM.jpg')
+restaurantSection.appendChild(cityMuseum)
+
+restaurantSection.style.color = 'lightseagreen'
+
